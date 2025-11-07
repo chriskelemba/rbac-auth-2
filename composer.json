@@ -1,5 +1,5 @@
 {
-    "name": "chris/rbac-auth",
+    "name": "chriskelemba/rbac-auth",
     "description": "RBAC and authentication package.",
     "type": "library",
     "license": "MIT",
