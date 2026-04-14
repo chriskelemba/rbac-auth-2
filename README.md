@@ -1,4 +1,4 @@
-# STL RBAC Auth Package
+# RBAC Auth Package
 
 A simple Role-Based Access Control (RBAC) package for Laravel.  
 Provides user, role, and permission management with policies.
@@ -7,8 +7,13 @@ Provides user, role, and permission management with policies.
 
 1. Require the package via Composer (for local development, use path repository):
 ```bash
-composer require stl/rbac-auth
+composer require chriskelemba/rbac-auth
 ```
+
+## Compatibility
+
+- Laravel `^12.0|^13.0`
+- PHP `^8.3` (including PHP 8.4 and newer 8.x releases allowed by Composer)
 
 2. Seed the database with default roles and permissions:
 ```bash

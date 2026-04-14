@@ -20,7 +20,7 @@ class CrudService
         $this->rules = $rules;
     }
 
-    public function all(array $with = [], string $orderBy = null): Collection
+    public function all(array $with = [], ?string $orderBy = null): Collection
     {
         $this->authorize('viewAny', $this->model, true);
 
